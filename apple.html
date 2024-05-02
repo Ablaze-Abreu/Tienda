@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EstilosApple.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Tienda</title>
+</head>
+<body>
+  <main>
+    <header class="header"></header>
+    <div class="menu">
+       <a href="#"  class="logo">Tienda</a>
+       <i class='bx bxs-shopping-bag' id="icon"></i>
+       <input type="checkbox"  id="menu"/>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li class="dropdown">
+                    <a href="#">Servicios</a>
+                    <ul class="dropdown-menu">
+                      <a href="apple.html"><i class="bi bi-apple">Productos Apple</i></a>
+                      <a href="audifonos.html"><i class="bi bi-headphones">Audifonos</i></a>
+                      <a href="Celulares.html"><i class="bi bi-phone-fill">Celulares</i></a>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="cart">
+          <h2 class="cart-title">Carrito</h2>
+          <div class="cart-content">
+           
+          </div>
+          <div class="total">
+           <div class="total-title">Total</div>
+           <div class="total-price">$0</div>
+          </div>
+          <button type="submit" class="btn-buy" >Compre Ahora</button>
+          <i class='bx bx-x' id="close-cart"></i>
+        </div>
+      </div>
+    </div>
+    <div class="fondo">
+      <div class="text">
+        <h6>All New Phones</h6>
+        <h2>up to 25% Flat Sale</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content
+          <br> of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
+        <button class="btn">Ver Productos</button>
+      </div>
+    </div>
+    <section class="Promocionales">    
+     <h1 class="inicial">Recien Agregados</h1>
+     <div class="container-pro">
+      <div class="cardpromo" id="promo1">
+        <p>Iphone15 Pro Max</p>
+        <span>Ver mas</span>
+      </div>
+      <div class="cardpromo" id="promo2">
+        <p>CHARGE™ PRO 2 en 1 de Belkin con MagSafe</p>
+        <span>Ver mas</span>
+      </div>
+      <div class="cardpromo" id="promo3">
+        <p> Magic Keyboard </p>
+        <span>Ver mas</span>
+      </div>
+     </div>
+    </section>
+    <div class="hq">
+      <h1 class="product">Productos</h1>
+    </div>
+    <div class="all-productos" id="lista-1">
+      <div class="container">
+        <div class="img-area">
+          <img class="product-img" src="apple/mac.png">
+          <div class="btn-car">
+            <button class="add-cart" data-id="1">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="info">
+          <h2 class="product-title">MacBook Pro de 14</h2>
+          <p class="prices">$21,000</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+      </div>
+    
+      <div class="container">
+        <div class="img-area">
+          <img class="product-img" src="apple/iphone14-digitalmat-gallery-3-202209.png">
+          <div class="btn-car">
+            <button class="add-cart" data-id="2">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="info">
+          <h2 class="product-title">iPhone 14</h2>
+          <p class="prices">$10,000</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+      </div>
+    
+      <div class="container">
+        <div class="img-area">
+          <img class="product-img" src="apple/se.png">
+          <div class="btn-car">
+            <button class="add-cart" data-id="3">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="info">
+          <h2 class="product-title">iPhone SE</h2>
+          <p class="prices">$1,000</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+      </div>
+    </div>
+    <section class="section2" id="lista-2">
+      <div class="container">
+        <div class="img-area">
+          <img class="product-img" src="apple/wacth.png">
+          <div class="btn-car">
+            <button class="add-cart" data-id="4">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="info">
+          <h2 class="product-title">Apple Watch Ultra 2</h2>
+          <p class="prices">$900</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+      </div>
+    
+      <div class="container">
+        <div class="img-area">
+          <img class="product-img" src="apple/ipad.png">
+          <div class="btn-car">
+            <button class="add-cart" data-id="5">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="info">
+          <h2 class="product-title">iPad (9.ª generación)</h2>
+          <p class="prices">$1,000</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-area">
+          <img class="product-img" src="Img/AIRPODS-PRO-EN-CAJITA.jpg">
+          <div class="btn-car">
+            <button class="add-cart" data-id="6">Añadir al Carrito</button>
+          </div>
+        </div>
+        <div class="info">
+          <h2 class="product-title">AIRPODS-PRO</h2>
+          <p class="prices">$5,000</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footerContainer">
+          <div class="socialIcons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-google-plus"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <div class="footerNav">
+              <ul><li><a href="">Home</a></li>
+                  <li><a href="">News</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">our Team</a></li>
+              </ul>
+          </div>
+          
+      </div>
+      <div class="footerBottom">
+          <p>Copyright &copy;2023; Designed by <span class="designer">Noman</span></p>
+      </div>
+  </footer>
+    </main>
+<script src="Script.js"></script>
+</body>
+</html>
